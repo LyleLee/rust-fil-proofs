@@ -25,7 +25,7 @@ chrono = { version = "0.4.7", features = ["serde"] }
 memmap = "0.7.0"
 bellperson = { git = "https://github.com/filecoin-project/bellman", branch = "use-gpu-tools" }
 paired = "0.20.0"
-fil-sapling-crypto = "0.6.0"
+fil-sapling-crypto = { git = "https://github.com/filecoin-project/sapling-crypto", branch = "update-bellman" }
 rand = "0.7"
 storage-proofs = { path = "../storage-proofs"}
 filecoin-proofs = { path = "../filecoin-proofs"}
