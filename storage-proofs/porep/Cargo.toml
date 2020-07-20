@@ -20,7 +20,7 @@ sha2 = { version = "0.8.3", package = "sha2ni" }
 rayon = "1.0.0"
 serde = { version = "1.0", features = ["derive"]}
 ff = { version = "0.2.1", package = "fff" }
-bellperson = "0.9.1"
+bellperson = { git = "https://github.com/filecoin-project/bellman", branch = "use-gpu-tools" }
 paired = { version = "0.20.0", features = ["serde"] }
 fil-sapling-crypto = "0.6.0"
 log = "0.4.7"
@@ -48,4 +48,3 @@ harness = false
 [[bench]]
 name = "parents"
 harness = false
-
